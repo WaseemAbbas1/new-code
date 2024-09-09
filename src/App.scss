@@ -1,0 +1,16 @@
+@import url("~bootstrap/scss/bootstrap.scss");
+@import url("./sass/_bootstrap.scss");
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+.no-data-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #6c757d;
+  }
